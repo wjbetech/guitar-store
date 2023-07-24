@@ -1,0 +1,25 @@
+:root {
+  font-family: 'Manrope', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  /* primaries */
+  --success: #0F9D58;
+  --info: #009DC4;
+  --warning: #FFCC00;
+  --danger: #B22222;
+
+  /* clean web */
+  --light-bg: #f4eded;
+  --light-frame: #d3d0d0;
+  --light-font: #596E79;
+  --dark-bg: #575C62;
+  --dark-frame: #838B91;
+  --dark-font: #BFC4C5;
+}

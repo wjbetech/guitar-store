@@ -26,6 +26,8 @@
   --dark-font: #BFC4C5;
 
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+
+  --box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 * {
@@ -60,13 +62,16 @@
   );
 }
 
-.bg-black-gradient {
-  background: linear-gradient(
-    144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
-  );
+.bg-sidebar {
+  border-radius: 0;
+  margin: 0;
+  width: 100%;
+  background-color: var(--light-bg);
+  box-shadow: var(--box-shadow);
+}
+
+.bg-sidebar li:hover {
+  text-decoration: underline;
 }
 
 .bg-black-gradient-2 {

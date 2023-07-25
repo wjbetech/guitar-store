@@ -27,29 +27,29 @@
 
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 
-  --box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  --box-shadow-strong: rgba(0, 0, 0, 0.3) 0px 4px 12px;
 }
 
 * {
   scroll-behavior: smooth;
   color: var(--light-font);
-  background-blend-mode: ;
 }
 
 .text-gradient {
-  background: radial-gradient(
-    64.18% 64.18% at 71.16% 35.69%,
-    #def9fa 0.89%,
-    #bef3f5 17.23%,
-    #9dedf0 42.04%,
-    #7de7eb 55.12%,
-    #5ce1e6 71.54%,
-    #33bbcf 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
+  /** TEXT GRADIENT */ color: #fa754d; background-image: -webkit-linear-gradient(0deg, #fa754dbb 0%, #d96845 33%, #bd552fbe 66%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+
+.button-gradient {
+  background-color: inherit;
+  border: 4px solid rgba(128, 128, 128, 0.295);
+  box-shadow: var(--box-shadow);
+  transition: all 0.5s ease;
+}
+
+.button-gradient:hover {
+  box-shadow: var(--box-shadow-strong);
+  transition: all 0.5s ease;
 }
 
 .bg-blue-gradient {
@@ -142,12 +142,12 @@
 }
 
 .blue__gradient {
-  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #765821 0%);
   filter: blur(123px);
 }
 
 .pink__gradient {
-  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  background: linear-gradient(90deg, #f4c4f3 50%, #fc67fa 0%);
   filter: blur(900px);
 }
 

@@ -8,7 +8,7 @@ const NavBar = () => {
   const [toggle, setToggle] = useState(false)
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className="w-full flex pt-6 mb-[-20px] justify-between items-center navbar">
       <img 
         src={logo} 
         alt="guitarworld logo" 
@@ -33,7 +33,7 @@ const NavBar = () => {
         alt="menu"
         onClick={() => setToggle((prev) => !prev)}
         />
-        <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-sidebar absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
+        <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-sidebar absolute top-20 right-0 mx-4 min-w-[140px] rounded-xl sidebar`}>
           <ul className="list-none flex flex-col justify-end items-center flex-1">
             {navLinks.map((item, index) => {
               return (

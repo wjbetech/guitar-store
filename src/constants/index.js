@@ -83,7 +83,7 @@ export const stats = [
   },
   {
     id: "stats-3",
-    title: "Orders/Year",
+    title: "Orders per Year",
     value: "20,000+",
   },
 ];

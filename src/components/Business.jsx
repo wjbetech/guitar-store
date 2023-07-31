@@ -2,14 +2,18 @@ import { features } from "../constants"
 import styles, { layout } from "../style"
 import Button from './Button'
 
-const FeatureCard = ({ icon, title, content }) => (
-  <div>
-    <div className="">
+const FeatureCard = ({ icon, title, content, index }) => (
+  <div className={`flex flex-row p-6 rounded-[20x] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card rounded-[25px]`}>
+    <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} business-cards my-[6px] mr-4`}>
       <img 
         src={icon} 
         alt="icon" 
-        className="color-grey-500"
+        className="object-contain"
       />
+    </div>
+    <div className="flex-1 flex flex-col ml-3">
+      <h4 className="font-semibold text-[18px] leading-[23px] my-[6px]">{title}</h4>
+      <p className="text-[15px] mb-[6px]">{content}</p>
     </div>
   </div>
 )

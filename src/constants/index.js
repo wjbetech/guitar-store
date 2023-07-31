@@ -25,14 +25,14 @@ export const features = [
     icon: star,
     title: "Hundreds of Guitars",
     content:
-      "A wide range of guitars for those looking for affordability, quality and custom designs",
+      "A wide range of guitars for those looking for affordability, quality and even custom designs",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secure Payments",
     content:
-      "All transactions are handled securely, all guitars are packed safely, and we offer robust product protection.",
+      "All transactions are handled securely, all guitars are packed safely, and we offer robust consumer protection for any damages",
   },
   {
     id: "feature-3",
@@ -48,16 +48,16 @@ export const feedback = [
     id: "feedback-1",
     content:
       "GuitarWorld has always given me the best advice when purchasing new guitars, and their technicians are the best around.",
-    name: "Herman Jensen",
-    title: "Guitarist | In Flames",
+    name: "Björn Gelotte",
+    title: "Guitarist - In Flames",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
       "I've been using GuitarWorld for 30 years, and they have never let me down when it comes to quality.",
-    name: "Steve Mark",
-    title: "Guitarist | Megadeth",
+    name: "Dave Mustaine",
+    title: "Guitarist - Megadeth",
     img: people02,
   },
   {

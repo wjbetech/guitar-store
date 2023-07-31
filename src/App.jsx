@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './style'
 
 // import bundle of components
-import { NavBar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients, CTA, Footer, GetStarted } from "./components/bundler";
+import { NavBar, Hero, Stats, Business, Testimonials, CTA, Footer, GetStarted } from "./components/bundler";
 
 
 const App = () => {
@@ -28,10 +28,7 @@ const App = () => {
         <div className={`${styles.boxWidth}`}>
           <Stats />
           <Business />
-          <Billing />
-          <CardDeal />
           <Testimonials />
-          <Clients />
           <CTA />
           <Footer />
         </div>

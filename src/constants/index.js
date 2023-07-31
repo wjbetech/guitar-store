@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -93,16 +93,8 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.guitarworld.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.guitarworld.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.guitarworld.com/create/",
+        name: "Our Mission",
+        link: "https://www.guitarworld.com/our-mission/",
       },
       {
         name: "Explore",
@@ -140,11 +132,11 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Partner",
+    title: "Partnership",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.guitarworld.com/our-partner/",
+        name: "Our Partners",
+        link: "https://www.guitarworld.com/our-partners/",
       },
       {
         name: "Become a Partner",
@@ -174,24 +166,5 @@ export const socialMedia = [
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/",
-  },
-];
-
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
   },
 ];

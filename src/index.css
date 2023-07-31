@@ -149,17 +149,16 @@ div.feature-card:hover {
   background: var(--black-gradient);
 }
 
+li.footer-links:hover {
+  color: #fa754d; background-image: -webkit-linear-gradient(0deg, #fa754dbb 0%, #d96845 33%, #bd552fbe 66%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+
 .blue__gradient {
   background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #765821 0%);
   filter: blur(123px);
 }
 
-.pink__gradient {
-  background: linear-gradient(90deg, #f4c4f3 50%, #fc67fa 0%);
-  filter: blur(900px);
-}
-
-.white__gradient {
-  background: rgba(255, 255, 255, 0.6);
-  filter: blur(750px);
+div.design-credit {
+  width: 97%;
+  border-top: 1px solid grey;
 }
